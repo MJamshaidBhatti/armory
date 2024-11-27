@@ -1,0 +1,242 @@
+/*=============================================
+  *        animations , 
+*=============================================*/
+
+// .banner {
+//   position: relative;
+//   animation: fadeIn ease 2s;
+//   -webkit-animation: fadeIn ease 2s;
+//   -moz-animation: fadeIn ease 2s;
+//   -o-animation: fadeIn ease 2s;
+//   -ms-animation: fadeIn ease 2s;
+
+//   @keyframes fadeIn {
+//     0% {
+//       opacity: 0;
+//     }
+
+//     100% {
+//       opacity: 1;
+//     }
+//   }
+
+//   @-moz-keyframes fadeIn {
+//     0% {
+//       opacity: 0;
+//     }
+
+//     100% {
+//       opacity: 1;
+//     }
+//   }
+
+//   @-webkit-keyframes fadeIn {
+//     0% {
+//       opacity: 0;
+//     }
+
+//     100% {
+//       opacity: 1;
+//     }
+//   }
+
+//   @-o-keyframes fadeIn {
+//     0% {
+//       opacity: 0;
+//     }
+
+//     100% {
+//       opacity: 1;
+//     }
+//   }
+
+//   .banner-actions {
+//     .circle-slider {
+//       .text {
+//         a.btn {
+//           margin-top: 15px;
+//           animation: fadeIn ease 2s;
+//           -webkit-animation: fadeIn ease 2s;
+//           -moz-animation: fadeIn ease 2s;
+//           -o-animation: fadeIn ease 2s;
+//           -ms-animation: fadeIn ease 2s;
+//           animation-delay: 1s;
+//           -webkit-animation-delay: 2.3s;
+//           -moz-animation-delay: 2.3s;
+//           -o-animation-delay: 2.3s;
+//           -ms-animation-delay: 2.3s;
+//           opacity: 0;
+//           -webkit-animation-fill-mode: forwards;
+
+//           -moz-animation-fill-mode: forwards;
+//           animation-fill-mode: forwards;
+//         }
+//       }
+
+//       .slide-outter-heading {
+//         padding-left: 5px;
+//         color: $base-color1;
+//         animation: text ease 2s;
+//         -webkit-animation: text ease 2s;
+//         -moz-animation: text ease 2s;
+//         -o-animation: text ease 2s;
+//         -ms-animation: text ease 2s;
+//         animation-delay: 1.5s;
+//         -webkit-animation-delay: 1.5s;
+//         -moz-animation-delay: 1.5s;
+//         -o-animation-delay: 1.5s;
+//         -ms-animation-delay: 1.5s;
+//         opacity: 0;
+//         -webkit-animation-fill-mode: forwards;
+
+//         -moz-animation-fill-mode: forwards;
+//         animation-fill-mode: forwards;
+//       }
+
+//       .desc {
+//         animation: text ease 2s;
+//         -webkit-animation: text ease 2s;
+//         -moz-animation: text ease 2s;
+//         -o-animation: text ease 2s;
+//         -ms-animation: text ease 2s;
+//         animation-delay: 1.5s;
+//         -webkit-animation-delay: 1.7s;
+//         -moz-animation-delay: 1.7s;
+//         -o-animation-delay: 1.7s;
+//         -ms-animation-delay: 1.7s;
+//         opacity: 0;
+//         -webkit-animation-fill-mode: forwards;
+
+//         -moz-animation-fill-mode: forwards;
+//         animation-fill-mode: forwards;
+//       }
+
+//       //   animation: circlew 1000ms 1;
+//       //   animation-delay: 250ms;
+
+//       //   @keyframes circlew {
+//       //     0% {
+//       //       transform: translateX(500px);
+//       //     }
+
+//       //     100% {
+//       //       transform: translateX(0px);
+//       //     }
+//       //   }
+//     }
+
+//     @keyframes text {
+//       0% {
+//         animation: fadeIn ease;
+//         -webkit-animation: fadeIn ease;
+//         -moz-animation: fadeIn ease;
+//         -o-animation: fadeIn ease;
+//         -ms-animation: fadeIn ease;
+//         transform: translate(0, 150px);
+//       }
+
+//       100% {
+//         opacity: 1;
+//         transform: translateY(0px);
+//       }
+//     }
+
+//     .circle-slider-percentage {
+//       animation: ellipse20 1000ms forwards;
+//       animation-iteration-count: 1;
+//       animation-delay: 1000ms;
+
+//       @keyframes ellipse20 {
+//         0% {
+//           visibility: visible;
+//           transform: translateY(-400px);
+//         }
+
+//         100% {
+//           visibility: visible;
+//           transform: translateY(0px);
+//         }
+//       }
+//     }
+
+//     .slide-inner-heading {
+//       color: $primary;
+//       // font-size: 50px;
+//       margin-top: 84px;
+//       font-family: "Allura";
+//       animation: fadeIn ease 2s;
+//       -webkit-animation: fadeIn ease 2s;
+//       -moz-animation: fadeIn ease 2s;
+//       -o-animation: fadeIn ease 2s;
+//       -ms-animation: fadeIn ease 2s;
+//       animation-delay: 1s;
+//       -webkit-animation-delay: 1s;
+//       -moz-animation-delay: 1s;
+//       -o-animation-delay: 1s;
+//       -ms-animation-delay: 1s;
+//       opacity: 0;
+//       -webkit-animation-fill-mode: forwards;
+
+//       -moz-animation-fill-mode: forwards;
+//       animation-fill-mode: forwards;
+//     }
+//   }
+// }
+
+.right-slide {
+  animation: circlew 1000ms 1;
+  animation-delay: 250ms;
+
+  @keyframes circlew {
+    0% {
+      transform: translateX(500px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+}
+
+/*=============================================
+  *        mixin , 
+*=============================================*/
+
+//include======(color,bg-color,font-size,hover-color,hover-bg)
+// @mixin input-left-radius-0(
+//   $success,
+//   $success-l,
+//   $success-r,
+//   $t-l-radius,
+//   $t-r-radius,
+//   $b-l-radius,
+//   $b-r-radius
+// ) {
+//   .form-control {
+//     border-top: 1px solid $success;
+//     border-bottom: 1px solid $success;
+//     border-left: 1px solid $success-l;
+//     border-right: 1px solid $success-r;
+//     border-top-left-radius: $t-l-radius !important;
+//     border-top-right-radius: $t-r-radius !important;
+//     border-bottom-right-radius: $b-r-radius !important;
+//     border-bottom-left-radius: $b-l-radius !important;
+//     color: $success;
+
+//     &::placeholder {
+//       color: $success;
+//       opacity: 1;
+//     }
+
+//     &:hover,
+//     &:focus,
+//     &:active {
+//       border-top: 1px solid $success;
+//       border-bottom: 1px solid $success;
+//       border-left: 1px solid $success-l;
+//       border-right: 1px solid $success-r;
+//     }
+//   }
+// }

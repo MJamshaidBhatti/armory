@@ -1,0 +1,49 @@
+{
+  "introduction": {
+    "title": "Introducing Armory -",
+    "subtitle": " The Ultimate CISO Workspace",
+    "content_hackers": "If hackers have Kali Linux, CISOs have Armory",
+    "content_welcome": "Welcome to Cisotronix, where we turn CISOs into cybersecurity heroes.",
+    "content_flagship": "Our flagship product, Armory, is the go-to workspace for Chief Information Security Officers, offering a suite of tools and functions specifically tailored for the unique challenges and responsibilities of cybersecurity leadership."
+  },
+  "features": {
+    "title": "OUR SOLUTIONS & FEATURES",
+    "subtitle": "Mastering Cybersecurity",
+    "content_intelligence": "with Intelligence and Insight",
+    "content_heroes": "where we turn CISOs into cybersecurity heroes. Our flagship product, Armory, is the go-to workspace for Chief Information Security Officers, offering a suite of tools and functions specifically tailored for the unique challenges and responsibilities of cybersecurity leadership.",
+    "features_button": "Download product brochure"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Redefining",
+    "content_leadership": " Cybersecurity Leadership",
+    "content_heroes": "Our flagship product, Armory, is the go-to workspace for Chief Information Security Officers, offering a suite of tools and functions specifically tailored for the unique challenges and responsibilities of cybersecurity leadership."
+  },
+  "leadership": [
+    {
+      "name": "Jhon Doe",
+      "designation": "information security specialist",
+      "social": "in"
+    },
+    {
+      "name": "Jhon Doe",
+      "designation": "information security specialist",
+      "social": "in"
+    },
+    {
+      "name": "Jhon Doe",
+      "designation": "information security specialist",
+      "social": "in"
+    }
+  ],
+  "contact": {
+    "title": "CONTACT US",
+    "subtitle": "join the League of",
+    "content_cyber": "Cyber - Skilled Leaders",
+    "content_elevate": "Ready to elevate your CISO skills?",
+    "content_touch": "Get in touch with Cisotronix and embark on an empowering journey with Armory!",
+    "company_name": "Cisotronix Ltd.",
+    "address": " Tel Aviv, Israel",
+    "emai": "office@cisotronix.com"
+  }
+}
