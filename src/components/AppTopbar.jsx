@@ -29,7 +29,7 @@ const AppTopbar = () => {
         <div className="flex px-4 sm:px-8 header-container app-header-sticky">
             <div  className="landing-wrapper landing-header-conatiner w-full overflow-hidden">
                 <div className="py-2 sm:py-3 pl-3 pr-5 flex align-items-center justify-content-between relative lg:static">
-                    <Image src='/images/Logo.svg' className='cursor-pointer pr-4 sm:pr-0' alt="logo" onClick={() => handleLogoClick ()}/>
+                    <Image src={`${process.env.PUBLIC_URL}/images/Logo.svg`} className='cursor-pointer pr-4 sm:pr-0' alt="logo" onClick={() => handleLogoClick ()}/>
                   
                     {isMenuOpen ? (
                         <i

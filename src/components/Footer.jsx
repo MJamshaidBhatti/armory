@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="landing-wrapper landing-header-conatiner w-full overflow-hidden">
         <div className="grid  py-0 pl-3 px-4  relative lg:static">
           <div className="col-12 md:col align-self-center md:text-left pt-3">
-            <Image src="/images/Logo.svg" alt="logo" />
+            <Image src={`${process.env.PUBLIC_URL}/images/Logo.svg" alt="logo`} />
           </div>
 
           <div className="col-12 md:col pt-3 align-self-center text-base align-items-center  flex-order-1 md:flex-order-0">

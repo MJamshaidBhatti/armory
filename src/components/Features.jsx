@@ -151,7 +151,7 @@ const Features = () => {
                   >
                     <div className="relative">
                       <Image
-                        src="/images/unknown-hacker.png"
+                        src={`${process.env.PUBLIC_URL}/images/unknown-hacker.png`}
                         alt="Image"
                         width="100%"
                       />
@@ -160,7 +160,7 @@ const Features = () => {
                 </div>
                 <div className="absolute hidden md:block top-41 sm:w-8 md:w-9 right-0 z-01">
                   <img
-                    src="/images/left-shadow.png"
+                   src={`${process.env.PUBLIC_URL}/images/left-shadow.png`}
                     className=" w-full "
                     alt=""
                   />
@@ -177,7 +177,7 @@ const Features = () => {
                 animate={videoControls}
               >
                 <Image
-                  src="/images/cyberSecurity.png"
+                  src={`${process.env.PUBLIC_URL}/images/cyberSecurity.png`}
                   alt="Image"
                   className="cyber-video"
                   width="100%"

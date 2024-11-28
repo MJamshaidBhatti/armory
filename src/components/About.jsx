@@ -134,7 +134,7 @@ const Features = () => {
                 <motion.img
                   initial={{ opacity: 0, x: 10 }}
                   animate={shadowImageControls}
-                  src="/images/hacker-back.png"
+                src={`${process.env.PUBLIC_URL}/images/hacker-back.png`}
                   className="w-10 sm:w-9 md:w-8  xl:w-6 "
                   alt="Image"
                 />
@@ -149,7 +149,7 @@ const Features = () => {
                 <motion.img
                   initial={{ opacity: 0, x: 20 }}
                   animate={femaleImageControls}
-                  src="/images/self-female.png"
+                  src={`${process.env.PUBLIC_URL}/images/self-female.png`}
                   alt="Image"
                   width="100%"
                 />
@@ -162,7 +162,7 @@ const Features = () => {
             <motion.div initial={{ opacity: 0, y: 25 }} animate={videoControls}>
               <video
                 ref={videoRef}
-                src="/videos/cyberAbout.mp4"
+               src={`${process.env.PUBLIC_URL}/videos/cyberAbout.mp4`}
                 className=" cyberAboutvideo w-full"
                 loop
                 muted
@@ -173,14 +173,14 @@ const Features = () => {
         </div>
         <div className="absolute top-0 right-0 h-full w-6 z-5 pt-8">
           <img
-            src="/images/left-shadow.png"
+            src={`${process.env.PUBLIC_URL}/images/left-shadow.png`}
             className=" w-full h-full right-0"
             alt=""
           />
         </div>{" "}
         <div className="absolute top-200 h-12 w-3 lg:w-2 z-3 h-full">
           <img
-            src="/images/cybercircle.png"
+           src={`${process.env.PUBLIC_URL}/images/cybercircle.png`}
             className="w-full z-3 h-full "
             alt=""
           />

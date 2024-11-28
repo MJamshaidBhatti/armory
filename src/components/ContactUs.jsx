@@ -112,7 +112,7 @@ const Contact = () => {
             <div className="relative">
               <video
                 ref={videoRef}
-                src="/videos/cyberStats.mp4"
+              src={`${process.env.PUBLIC_URL}/videos/cyberStats.mp4`}
                 style={{ width: "100%" }}
                 className="cyberAboutvideo "
                 loop
@@ -123,7 +123,7 @@ const Contact = () => {
             </div>
             <div className="absolute left-0 top-0 z-3 w-12 sm:w-4 lg:h-full ">
               <img
-                src="/images/cybercircle.png"
+                src={`${process.env.PUBLIC_URL}/images/cybercircle.png`}
                 className="w-full h-full "
                 alt=""
               />
@@ -161,7 +161,7 @@ const Contact = () => {
             <div className="relative pt-4 lg:hidden md:hidden ">
               <video
                 ref={videoRefStats}
-                src="/videos/eyeRotate.mp4"
+                src={`${process.env.PUBLIC_URL}/videos/eyeRotate.mp4`}
                 width="100%"
                 height="100%"
                 loop
@@ -185,7 +185,7 @@ const Contact = () => {
                     loop
                     muted
                     ref={videoRefCircuts}
-                    src="/videos/circuts.mp4"
+                   src={`${process.env.PUBLIC_URL}/videos/circuts.mp4`}
                     type="video/mp4"
                     playsInline
                     className="background-video background-video-about-height "
@@ -261,7 +261,7 @@ const Contact = () => {
             <div className="relative pt-6 pb-4 w-contact-v">
               <video
                 ref={videoRefmobile}
-                src="/videos/eyeRotate.mp4"
+                src={`${process.env.PUBLIC_URL}/videos/eyeRotate.mp4`}
                 width="100%"
                 height="100%"
                 loop

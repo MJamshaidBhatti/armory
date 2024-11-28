@@ -167,7 +167,7 @@ const Introduction = () => {
         </div>
       </div>
       <div className="circle1 z-0">
-        <img src="/images/right-shadow.png" className="w-full h-full " alt="" />
+        <img src={`${process.env.PUBLIC_URL}/images/right-shadow.png`} className="w-full h-full " alt="" />
       </div>
       <div className="col-12 md:col-4 lg:col-4 z-5 px-3 md:pr-0 relative flex-order-0 md:flex-order-0 ">
         <div >
@@ -178,7 +178,7 @@ const Introduction = () => {
             <div className="overflow-hidden  md:px-0 left-shadow">
               <video
                 ref={videoRef}
-                src="/videos/intro.mp4"
+               src={`${process.env.PUBLIC_URL}/videos/intro.mp4`}
                 className="width-715-440 w-full bottom-shadow "
                 loop
                 muted
@@ -189,7 +189,7 @@ const Introduction = () => {
       </div>
       <div className="circler z-0">
         <img
-          src="/images/left-cricle-shadow.png"
+        src={`${process.env.PUBLIC_URL}/images/left-cricle-shadow.png`}
           className="w-full h-full  "
           alt=""
         />

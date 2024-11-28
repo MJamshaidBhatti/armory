@@ -77,7 +77,7 @@ const LeaderShip = () => {
               animate={firstProfileControls}
               className="col-12 md:col-4 lg:col-4 "
             >
-              <Image src="/images/jhon1.png" alt="Image" width="100%" />
+              <Image src={`${process.env.PUBLIC_URL}/images/jhon1.png`} alt="Image" width="100%" />
               <span className="app-primary-text font-bold line-height-4 content-text-smaller">
                 {content.leadership[0].name}
               </span>
@@ -95,7 +95,8 @@ const LeaderShip = () => {
               animate={secondProfileControls}
               className="col-12 md:col-4 lg:col-4 "
             >
-              <Image src="/images/jhon2.png" alt="Image" width="100%" />
+              <Image src={`${process.env.PUBLIC_URL}/images/jhon2.png`}
+               alt="Image" width="100%" />
               <span className="app-primary-text font-bold line-height-4 content-text-smaller">
                 {content.leadership[0].name}
               </span>
@@ -113,7 +114,7 @@ const LeaderShip = () => {
               animate={thirdProfileControls}
               className="col-12 md:col-4 lg:col-4 "
             >
-              <Image src="/images/jhon3.png" alt="Image" width="100%" />
+              <Image src={`${process.env.PUBLIC_URL}/images/jhon3.png`} alt="Image" width="100%" />
               <span className="app-primary-text font-bold line-height-4 content-text-smaller">
                 {content.leadership[0].name}
               </span>
