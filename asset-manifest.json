@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/armory/static/css/main.5ceaf516.css",
-    "main.js": "/armory/static/js/main.0b5e0f00.js",
+    "main.js": "/armory/static/js/main.2a28f632.js",
     "static/js/453.e031a544.chunk.js": "/armory/static/js/453.e031a544.chunk.js",
     "static/media/primeicons.svg": "/armory/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/primeicons.eot": "/armory/static/media/primeicons.d44157bdfa026dc877af.eot",
@@ -11,11 +11,11 @@
     "static/media/logo.svg": "/armory/static/media/logo.0e05e9f7fb53772775e4980cb97ae42b.svg",
     "index.html": "/armory/index.html",
     "main.5ceaf516.css.map": "/armory/static/css/main.5ceaf516.css.map",
-    "main.0b5e0f00.js.map": "/armory/static/js/main.0b5e0f00.js.map",
+    "main.2a28f632.js.map": "/armory/static/js/main.2a28f632.js.map",
     "453.e031a544.chunk.js.map": "/armory/static/js/453.e031a544.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ceaf516.css",
-    "static/js/main.0b5e0f00.js"
+    "static/js/main.2a28f632.js"
   ]
 }
