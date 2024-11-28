@@ -1,8 +1,8 @@
 {
   "homepage": "https://mjamshaidbhatti.github.io/armory",
-  "name": "armmory-marketing",
+  "name": "armory-app",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -44,8 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
   }
 }
