@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/armory/static/css/main.d5207cd9.css",
-    "main.js": "/armory/static/js/main.aa79a304.js",
-    "static/js/453.f5bd5650.chunk.js": "/armory/static/js/453.f5bd5650.chunk.js",
+    "main.css": "/armory/static/css/main.5ceaf516.css",
+    "main.js": "/armory/static/js/main.0b5e0f00.js",
+    "static/js/453.e031a544.chunk.js": "/armory/static/js/453.e031a544.chunk.js",
     "static/media/primeicons.svg": "/armory/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/primeicons.eot": "/armory/static/media/primeicons.d44157bdfa026dc877af.eot",
     "static/media/primeicons.woff": "/armory/static/media/primeicons.10d3152104f2208ac82a.woff",
@@ -10,12 +10,12 @@
     "static/media/primeicons.woff2": "/armory/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "static/media/logo.svg": "/armory/static/media/logo.0e05e9f7fb53772775e4980cb97ae42b.svg",
     "index.html": "/armory/index.html",
-    "main.d5207cd9.css.map": "/armory/static/css/main.d5207cd9.css.map",
-    "main.aa79a304.js.map": "/armory/static/js/main.aa79a304.js.map",
-    "453.f5bd5650.chunk.js.map": "/armory/static/js/453.f5bd5650.chunk.js.map"
+    "main.5ceaf516.css.map": "/armory/static/css/main.5ceaf516.css.map",
+    "main.0b5e0f00.js.map": "/armory/static/js/main.0b5e0f00.js.map",
+    "453.e031a544.chunk.js.map": "/armory/static/js/453.e031a544.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5207cd9.css",
-    "static/js/main.aa79a304.js"
+    "static/css/main.5ceaf516.css",
+    "static/js/main.0b5e0f00.js"
   ]
 }
